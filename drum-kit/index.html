@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Drum Kit</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="keyboard">
+        <div data-key="97" class="key">
+          <p>A</p>
+          <span>CLAP</span>
+        </div>
+        <div data-key="115" class="key">
+          <p>S</p>
+          <span>KICK</span>
+        </div>
+        <div data-key="100" class="key">
+          <p>D</p>
+          <span>SNARE</span>
+        </div>
+        <div data-key="106" class="key">
+          <p>J</p>
+          <span>HIHAT</span>
+        </div>
+        <div data-key="107" class="key">
+          <p>K</p>
+          <span>808</span>
+        </div>
+        <div data-key="108" class="key">
+          <p>L</p>
+          <span>SNAP</span>
+        </div>
+      </div>
+
+      <audio data-key="97" src="./audios/clap.wav"></audio>
+      <audio data-key="115" src="./audios/kick.wav"></audio>
+      <audio data-key="100" src="./audios/snare.wav"></audio>
+      <audio data-key="106" src="./audios/hihat.wav"></audio>
+      <audio data-key="107" src="./audios/808.wav"></audio>
+      <audio data-key="108" src="./audios/snap.wav"></audio>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

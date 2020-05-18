@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Variables</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="controls">
+        <div class="opacity">
+          <label for="opacity-control">Opacity:</label>
+          <input
+            type="range"
+            name="opacity-control"
+            id="opacity-control"
+            min="10"
+            max="200"
+            value="10"
+          />
+        </div>
+
+        <div class="space">
+          <label for="spacing-control">Spacing:</label>
+          <input
+            type="range"
+            name="spacing-control"
+            id="spacing-control"
+            min="10"
+            max="200"
+            value="10"
+          />
+        </div>
+
+        <div class="color">
+          <label for="color-control">Color:</label>
+          <input type="color" name="color-control" id="color-control" />
+        </div>
+      </div>
+      <div class="content">
+        <img src="./image.jpg" alt="Image" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
